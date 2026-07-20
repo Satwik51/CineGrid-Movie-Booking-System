@@ -1,0 +1,23 @@
+# NetBeans build and cache directories
+/build/
+/dist/
+/nbproject/private/
+/nbbuild/
+/target/
+
+# Compiled Java class files
+*.class
+
+# IDE specific files
+.idea/
+.vs/
+*.iml
+*.iws
+*.ipr
+
+# Sensitive configuration files (Database credentials & passwords)
+config.properties
+
+# Operating system generated files
+.DS_Store
+Thumbs.db
