@@ -91,7 +91,7 @@ public class DashboardFrame extends JFrame {
         btnLogout.setFocusPainted(false);
         btnLogout.setPreferredSize(new Dimension(110, 36));
         btnLogout.addActionListener(e -> {
-            int confirm = JOptionPane.showConfirmDialog(this, "Kya aap waqai logout karna chahte hain?", "Confirm Logout", JOptionPane.YES_NO_OPTION);
+            int confirm = JOptionPane.showConfirmDialog(this, "Are you sure you want to log out?", "Confirm Logout", JOptionPane.YES_NO_OPTION);
             if (confirm == JOptionPane.YES_OPTION) {
                 clockTimer.stop(); // Stop clock timer on session termination
                 TransitionLoader.showTransition(this, "Terminating Session...", () -> {
@@ -568,7 +568,7 @@ public class DashboardFrame extends JFrame {
                 return; 
             }
             
-            int confirmCancel = JOptionPane.showConfirmDialog(this, "Kya aap waqai yeh booking cancel karna chahte hain?", "Confirm Cancellation", JOptionPane.YES_NO_OPTION);
+            int confirmCancel = JOptionPane.showConfirmDialog(this, "Are you sure you want to cancel this booking?", "Confirm Cancellation", JOptionPane.YES_NO_OPTION);
             if (confirmCancel == JOptionPane.YES_OPTION) {
                 try {
                     bookingDAO.cancelBooking(bid); 
@@ -702,7 +702,7 @@ public class DashboardFrame extends JFrame {
                 return; 
             }
             
-            int confirmCancel = JOptionPane.showConfirmDialog(this, "ADMIN OVERRIDE: Kya aap waqai yeh booking cancel karna chahte hain?", "Confirm Admin Reversal", JOptionPane.YES_NO_OPTION);
+            int confirmCancel = JOptionPane.showConfirmDialog(this, "ADMIN OVERRIDE: Are you sure you want to cancel this booking?", "Confirm Admin Reversal", JOptionPane.YES_NO_OPTION);
             if (confirmCancel == JOptionPane.YES_OPTION) {
                 try {
                     bookingDAO.cancelBooking(bid); 

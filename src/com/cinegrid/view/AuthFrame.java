@@ -169,7 +169,7 @@ public class AuthFrame extends JFrame {
         String role = comboRole.getSelectedItem().toString();
         
         if (!EMAIL_PATTERN.matcher(em).matches()) { 
-            JOptionPane.showMessageDialog(this, "Aapka Email format galat hai!", "Validation Error", JOptionPane.WARNING_MESSAGE); 
+            JOptionPane.showMessageDialog(this, "Invalid email format entered!", "Validation Error", JOptionPane.WARNING_MESSAGE); 
             txtEmail.requestFocusInWindow();
             return; 
         }
@@ -190,7 +190,7 @@ public class AuthFrame extends JFrame {
                     this.dispose();
                 });
             } else { 
-                JOptionPane.showMessageDialog(this, "Wrong Credentials ya chosen Role mismatch!", "Authentication Failed", JOptionPane.ERROR_MESSAGE); 
+                JOptionPane.showMessageDialog(this, "Invalid credentials or chosen role mismatch!", "Authentication Failed", JOptionPane.ERROR_MESSAGE); 
             }
         } catch (Exception ex) { 
             JOptionPane.showMessageDialog(this, "Database Error: " + ex.getMessage(), "System Exception", JOptionPane.ERROR_MESSAGE); 
@@ -204,7 +204,7 @@ public class AuthFrame extends JFrame {
         String role = comboRole.getSelectedItem().toString();
         
         if (name.isEmpty() || em.isEmpty() || pass.length() < 6) { 
-            JOptionPane.showMessageDialog(this, "Fields khali hain ya Password 6 characters se chota hai!", "Validation Error", JOptionPane.WARNING_MESSAGE); 
+            JOptionPane.showMessageDialog(this, "Fields are empty or password is less than 6 characters!", "Validation Error", JOptionPane.WARNING_MESSAGE); 
             return; 
         }
         String hs = SecurityUtil.hashPassword(pass);
@@ -216,12 +216,12 @@ public class AuthFrame extends JFrame {
             
             // Transition loader for smooth signup feedback transition
             TransitionLoader.showTransition(this, "Registering Credentials...", () -> {
-                JOptionPane.showMessageDialog(this, "Account Created Successfully! Ab Login Karein.", "Registration Complete", JOptionPane.INFORMATION_MESSAGE);
+                JOptionPane.showMessageDialog(this, "Account Created Successfully! Please Login.", "Registration Complete", JOptionPane.INFORMATION_MESSAGE);
                 isLoginMode = true; 
                 toggleAuthUI();
             });
         } catch (Exception ex) { 
-            JOptionPane.showMessageDialog(this, "Signup Failed (Email duplicated): " + ex.getMessage(), "Database Rejection", JOptionPane.ERROR_MESSAGE); 
+            JOptionPane.showMessageDialog(this, "Signup Failed (Duplicate Email): " + ex.getMessage(), "Database Rejection", JOptionPane.ERROR_MESSAGE); 
         }
     }
 }
