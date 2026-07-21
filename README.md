@@ -16,6 +16,108 @@
 ### 🎟️ Browse Movies • Select Seats • Book Tickets • Print Receipts
 
 ---
+# 📸 Application Screenshots
+
+Experience the complete CineGrid workflow, from launching the application to booking movie tickets and managing the system through the admin portal.
+
+---
+
+## 🚀 Splash Screen
+
+<p align="center">
+  <img src="screenshots/splash.png" width="100%">
+</p>
+
+---
+
+## 🔐 Secure Login Gateway
+
+<p align="center">
+  <img src="screenshots/login.png" width="100%">
+</p>
+
+---
+
+## 🏠 User Dashboard
+
+Browse movies with an elegant dark-themed interface, search functionality, genre filters, and booking options.
+
+<p align="center">
+  <img src="screenshots/dashboard.png" width="100%">
+</p>
+
+---
+
+## 🎬 Movie Catalogue
+
+View recommended movies with posters, ratings, formats, genres, and available show timings.
+
+<p align="center">
+  <img src="screenshots/movie.png" width="100%">
+</p>
+
+---
+
+## 💺 Interactive Seat Selection
+
+Select available seats with real-time visual seat mapping and dynamic pricing.
+
+<p align="center">
+  <img src="screenshots/seat.png" width="100%">
+</p>
+
+---
+
+## 🎟 Booking Confirmation
+
+Choose a show time and confirm your booking before proceeding to ticket generation.
+
+<p align="center">
+  <img src="screenshots/booking.png" width="100%">
+</p>
+
+---
+
+## 📄 PDF Movie Ticket
+
+Automatically generate a professional printable PDF ticket with booking details and QR verification.
+
+<p align="center">
+  <img src="screenshots/pdf-ticket.png" width="100%">
+</p>
+
+---
+
+## 🛠️ Admin Console
+
+Import movie data, allocate show slots, synchronize posters, and manage the entire movie catalogue through the administrative dashboard.
+
+<p align="center">
+  <img src="screenshots/admin-console.png" width="100%">
+</p>
+
+---
+
+## 👤 Profile Management
+
+Users can update their profile information directly from the application.
+
+<p align="center">
+  <img src="screenshots/profile.png" width="100%">
+</p>
+
+---
+
+## 📊 Booking Audit Dashboard
+
+Administrators can monitor all bookings, search records, refresh data, and cancel bookings when required.
+
+<p align="center">
+  <img src="screenshots/bookings-audit.png" width="100%">
+</p>
+
+---
+
 
 ### ⭐ If you like this project, don't forget to star the repository!
 
@@ -457,7 +559,7 @@ This project is licensed under the MIT License.
 
 # 👨‍💻 Author
 
-## Satwik Rai
+## Saurabh
 
 ### GitHub
 
