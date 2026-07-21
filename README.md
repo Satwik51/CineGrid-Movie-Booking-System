@@ -25,7 +25,7 @@ Experience the complete CineGrid workflow, from launching the application to boo
 ## 🚀 Splash Screen
 
 <p align="center">
-  <img src="screenshots/splash.png" width="100%">
+  <img src="screenshots/splash.png" width="45%">
 </p>
 
 ---
@@ -33,7 +33,7 @@ Experience the complete CineGrid workflow, from launching the application to boo
 ## 🔐 Secure Login Gateway
 
 <p align="center">
-  <img src="screenshots/login.png" width="100%">
+  <img src="screenshots/login.png" width="45%">
 </p>
 
 ---
@@ -43,7 +43,7 @@ Experience the complete CineGrid workflow, from launching the application to boo
 Browse movies with an elegant dark-themed interface, search functionality, genre filters, and booking options.
 
 <p align="center">
-  <img src="screenshots/dashboard.png" width="100%">
+  <img src="screenshots/Dashboard.png" width="100%">
 </p>
 
 ---
@@ -53,7 +53,7 @@ Browse movies with an elegant dark-themed interface, search functionality, genre
 View recommended movies with posters, ratings, formats, genres, and available show timings.
 
 <p align="center">
-  <img src="screenshots/movie.png" width="100%">
+  <img src="screenshots/Movie.png" width="100%">
 </p>
 
 ---
@@ -63,7 +63,7 @@ View recommended movies with posters, ratings, formats, genres, and available sh
 Select available seats with real-time visual seat mapping and dynamic pricing.
 
 <p align="center">
-  <img src="screenshots/seat.png" width="100%">
+  <img src="screenshots/Seat.png" width="100%">
 </p>
 
 ---
@@ -73,7 +73,7 @@ Select available seats with real-time visual seat mapping and dynamic pricing.
 Choose a show time and confirm your booking before proceeding to ticket generation.
 
 <p align="center">
-  <img src="screenshots/booking.png" width="100%">
+  <img src="screenshots/Booking.png" width="100%">
 </p>
 
 ---
@@ -83,9 +83,8 @@ Choose a show time and confirm your booking before proceeding to ticket generati
 Automatically generate a professional printable PDF ticket with booking details and QR verification.
 
 <p align="center">
-  <img src="screenshots/pdf-ticket.png" width="100%">
+  <img src="screenshots/pdf-ticket.png" width="45%">
 </p>
-
 ---
 
 ## 🛠️ Admin Console
@@ -93,7 +92,7 @@ Automatically generate a professional printable PDF ticket with booking details 
 Import movie data, allocate show slots, synchronize posters, and manage the entire movie catalogue through the administrative dashboard.
 
 <p align="center">
-  <img src="screenshots/admin-console.png" width="100%">
+  <img src="screenshots/admin_console.png" width="100%">
 </p>
 
 ---
@@ -113,7 +112,7 @@ Users can update their profile information directly from the application.
 Administrators can monitor all bookings, search records, refresh data, and cancel bookings when required.
 
 <p align="center">
-  <img src="screenshots/bookings-audit.png" width="100%">
+  <img src="screenshots/booking-audit.png" width="100%">
 </p>
 
 ---
