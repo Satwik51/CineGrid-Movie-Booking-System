@@ -205,59 +205,7 @@ It is designed as an academic as well as portfolio project to demonstrate Java d
 
 ---
 
-# 📸 Application Screenshots
 
-> Replace the images below after uploading screenshots inside the **screenshots** folder.
-
----
-
-## 🖥 Splash Screen
-
-![Splash Screen](screenshots/splash.png)
-
----
-
-## 🔐 Login Screen
-
-![Login](screenshots/login.png)
-
----
-
-## 🏠 Dashboard
-
-![Dashboard](screenshots/dashboard.png)
-
----
-
-## 🎥 Movie Selection
-
-![Movie](screenshots/movie.png)
-
----
-
-## 💺 Seat Selection
-
-![Seat](screenshots/seat-selection.png)
-
----
-
-## 🎟 Booking Confirmation
-
-![Booking](screenshots/booking.png)
-
----
-
-## 📄 Generated Ticket
-
-![Ticket](screenshots/ticket.png)
-
----
-
-## 🗄 Database
-
-![Database](screenshots/database.png)
-
----
 
 # ⚙ Technology Stack
 
